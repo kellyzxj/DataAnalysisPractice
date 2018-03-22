@@ -54,9 +54,9 @@ for call in calls:
         if ' ' in call[1] and (call[1].startswith('7') or  call[1].startswith('8') or  call[1].startswith('9')):
             if call[1][:4] not in call_no:
                 call_no.append(call[1][:4])
-call_no.append('140')
+#call_no.append('140')
 print("The numbers called by people in Bangalore have codes:")
-new_call_no = sorted(call_no,reverse=True)
+new_call_no = sorted(call_no)
 for no in new_call_no:
     print(no)
 rate = rev_count/call_count
