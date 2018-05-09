@@ -1,2 +1,2 @@
-# udacityp1
-P1
+# Data Analysis Personal Practice 
+Project 1 
